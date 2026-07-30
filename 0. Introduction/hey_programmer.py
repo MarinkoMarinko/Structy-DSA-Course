@@ -1,7 +1,2 @@
-def greet(s):
-  return "hey " + s
-
-if __name__ == "__main__":
-  greet("alvin")
-  greet("jason")
-  greet("how now brown cow")
+def greet(s):              # TC: O(1)
+  return "hey " + s        # SC: O(1)
