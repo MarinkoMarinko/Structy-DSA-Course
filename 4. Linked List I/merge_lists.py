@@ -3,7 +3,7 @@ class Node:
     self.val = val
     self.next = None
 
-def merge_lists(head_1, head_2):    # TC: O(min(n, m))
+def merge_lists(head_1, head_2):    # TC: O(max(n, m))
     dummy = Node(None)              # SC: O(1), where n = len of list1 and m = len of list2
     tail = dummy
 
@@ -26,8 +26,8 @@ def merge_lists(head_1, head_2):    # TC: O(min(n, m))
 
     return dummy.next
 
-def merge_lists(head_1, head_2):    # TC: O(min(n, m))
-    if not head_1 and not head_2:   # SC: O(min(n, m)), where n = len of list1 and m = len of list2
+def merge_lists(head_1, head_2):    # TC: O(max(n, m))
+    if not head_1 and not head_2:   # SC: O(max(n, m)), where n = len of list1 and m = len of list2
         return None
 
     if not head_1:
