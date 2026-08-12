@@ -34,4 +34,4 @@ def binary_search(nums, target):
     return False
 
 
-# Searching for the target row takes log(n) time. Likewise, searching for the target column takes log(m). The time complexity is O(log(n) + log(m)). From log rules we know that log(n) + log(m) = log(n * m), therefore the time complexity of this algorithm is O(log(n * m)) :D
+# Searching for the target row takes log(n) time. Likewise, searching for the target column takes log(m) time. The time complexity is O(log(n) + log(m)). From log rules we know that log(n) + log(m) = log(n * m), therefore the time complexity of this algorithm is O(log(n * m)) :D
